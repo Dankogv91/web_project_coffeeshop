@@ -102,8 +102,7 @@ position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383;9
-
+  color: #838383;
 }
 .header__footer_paragraph-hora{
   position: absolute;
@@ -135,7 +134,7 @@ position: relative;
  padding-top: 100px;
   padding-left:80px;
   font-family: "inter";
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
@@ -164,7 +163,7 @@ iframe{
   padding-top:24px;
   justify-content: space-between;
   font-family: "inter";
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
   line-height: 30px;
 
