@@ -171,3 +171,143 @@ position: relative;
   line-height: 30px;
 
 }
+/*etapa 3 proyecto 3*/
+.reservation{
+
+  max-width: 1600px;
+  min-width: 1100px;
+  background-image: url(../images/background_reservation.svg);
+  background-color:  #d9e7ff ;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+   color: #000000;
+
+
+}
+
+
+.reservation__title{
+  display: flex;
+  justify-content:center;
+  padding-top: 100px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+
+
+
+}
+
+.reservation__form{
+display: block;
+
+
+
+
+}
+.reservation__label{
+  padding-top: 32px;
+  padding-bottom: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+
+
+.reservation_form_container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  margin: auto;
+  max-width: 385px;
+  width: 385px;
+  box-sizing: border-box;
+  border: none;
+
+
+
+}
+.reservation__input{
+margin-top: 8px;
+height: 60px;
+max-width: 385px;
+
+
+}
+input::placeholder{
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+   line-height: 30px;
+   color: #838383;
+}
+input[type="datetime-local"]{
+  padding-left: 20px;
+  padding-top: 15px;
+
+}
+
+
+
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 120px;
+  max-width: 385px;
+
+  box-sizing: border-box;
+  border: none;
+
+}
+
+
+
+.reservation__button{
+  justify-content: flex-start;
+  background-color: #2f80ed ;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height: 60px;
+  border-radius: 4px;
+  border: none;
+  max-width: 385px;
+
+}
+
+.reservation__button:hover{
+  opacity: 0.7;
+}
+
+
+.reservation__label_checkbox{
+  display: flex;
+  justify-content: center;
+margin-top: 32px;
+align-content: center;
+
+
+}
+
+input[type="checkbox"]{
+  margin-right: 12px;
+}
+
+
+
+
