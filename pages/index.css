@@ -260,7 +260,7 @@ input[type="datetime-local"]{
 
 
 
-.checkbox{
+.checkbox__label{
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -295,8 +295,9 @@ input[type="datetime-local"]{
 }
 
 
-.checkbox__label_checkbox{
+.checkbox__label_terminos{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 margin-top: 32px;
 align-content: center;
