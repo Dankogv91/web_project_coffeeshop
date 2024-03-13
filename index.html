@@ -104,16 +104,16 @@
         <fieldset class="reservation__form reservation_form_container">
 
           <label for="Nombre" class="reservation__label">Nombre *</label>
-            <input type="text" class="reservation__input" placeholder="Nombre Apellido" name="Nombre" required>
+            <input type="text" class="reservation__input" placeholder="Nombre Apellido" name="Nombre" id="Nombre" required>
 
           <label for="numero" class=" reservation__label">Número de comensales *</label>
-            <input type="number" class="reservation__input" min="1" max="8" placeholder="1-8" name="numero" required>
+            <input type="number" class="reservation__input" min="1" max="8" placeholder="1-8" name="numero" id="numero" required>
 
           <label for="fecha-hora" class=" reservation__label">Fecha y hora *</label>
-            <input type="datetime-local" class="reservation__input" name="fecha-hora"  required>
+            <input type="datetime-local" class="reservation__input" name="fecha-hora"  id="fecha-hora" required>
 
           <label for="email" class=" reservation__label">Tu correo electrónico *</label>
-            <input type="email" class="reservation__input" placeholder="email@email.com" name="email" required>
+            <input type="email" class="reservation__input" placeholder="email@email.com" name="email" id="email" required>
           </fieldset>
         <fieldset class="checkbox">
           <button type="submit" class="reservation__button">Reservar una mesa</button>
