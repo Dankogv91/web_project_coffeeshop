@@ -221,7 +221,7 @@ display: block;
 
 
 
-.reservation_form_container{
+.reservation__form_container{
   display: flex;
   flex-direction: column;
   padding-bottom: 32px;
@@ -295,7 +295,7 @@ input[type="datetime-local"]{
 }
 
 
-.reservation__label_checkbox{
+.checkbox__label_checkbox{
   display: flex;
   justify-content: center;
 margin-top: 32px;
