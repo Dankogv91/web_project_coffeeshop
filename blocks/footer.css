@@ -1,6 +1,7 @@
 
 
 .footer {
+  background: linear-gradient(  #050a43 50%, black);
   box-sizing: border-box;
   background-color: #000000;
   color:#fff;
@@ -9,38 +10,63 @@
 }
 
 .footer__columns{
-
+display: flex;
+justify-content: space-between;
 }
 
 .footer__logo{
-
+margin: 0;
+  width: 130px;
+  height: 130px;
 }
 .footer__columns_content-social{
+
+  display: block;
+  margin:0;
 
 }
 
 .footer__copyright{
 
+margin: 100px 0 0;
 }
 
 .footer__column-heading{
+padding-bottom: 15px;
+font-family: Inter;
+
 
 }
 
 .footer__list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 
 }
 
 .footer__list-item{
+padding-bottom: 15px
+}
+
+
+.footer__column-link{
+ text-decoration: none;
+ color: #fff;
 
 }
 
-.footer__column-link{
-
+.footer__column-link:hover{
+ color:rgb(23, 189, 189);
 }
 
 .footer__social-icon{
-
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
+
+
+
 
 
