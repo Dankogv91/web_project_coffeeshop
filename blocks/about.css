@@ -53,10 +53,8 @@
 
 }
 
-.about__content_text{
+.about__content-text{
 
-  display: block;
-  margin: auto;
   padding-top: 30px;
   font-family: "Noto Serif","Times New Roman",serif;
   font-size: 20px;
