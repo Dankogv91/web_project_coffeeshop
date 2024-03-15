@@ -47,7 +47,13 @@ padding-bottom: 70px;
 
 }
 
+.card__title{
 
+  font-family: "Noto Serif","Times New Roman",serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight:bold;
+}
 .menu__cards_content{
 
 max-width: 800px;
