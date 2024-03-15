@@ -25,7 +25,7 @@
   line-height: 52px;
 }
 
-.menu__description{
+.menu__subtitle{
   text-align: center;
   padding-bottom: 55px;
   font-family: "Noto Serif","Times New Roman",serif;
@@ -34,5 +34,17 @@
   }
 
 
+  .menu__cards{
+    display: flex;
+    margin:auto;
 
+    flex-wrap:wrap ;
+    justify-content:space-evenly ;
+    gap: 10px;
+
+    font-family: "Noto Serif","Times New Roman",serif;
+
+  padding-bottom: 70px;
+
+  }
 
