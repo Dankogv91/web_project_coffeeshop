@@ -14,41 +14,8 @@
   position: relative;
 }
 
-.nav {
-  display:flex;
-  justify-content: space-between;
 
-  }
-
-  .nav__logo{
-  position: relative;
-    width: 105px;
-    height: 39px;
-    top: 30px;
-    left: 30px;
-  }
-
-
-  .nav__links {
-    position: relative;
-    display: flex;
-    column-gap: 20px;
-    list-style: none;
-    top: 30px;
-    right: 80px;
-    font-family:"inter",Arial,sans-serif;
-      font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-
-  }
-  .nav__link{
-    text-decoration: none;
-    color: black;
-  }
-  .nav__link:hover{
-    color: blue;
-  }
+  
   .header__image{
 
     position: absolute;

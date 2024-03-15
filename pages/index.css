@@ -5,13 +5,14 @@
 
 
 /*page*/
-@import url("../blocks/body.css");
-
+@import url("../blocks/page.css");
 
 
 /*header */
 @import url("../blocks/header.css");
 
+/*nav*/
+@import url("../blocks/nav.css");
 
 /*recipes*/
 @import url("../blocks/recipes.css");
