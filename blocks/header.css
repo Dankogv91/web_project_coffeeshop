@@ -1,0 +1,110 @@
+
+
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url(../images/background_header.svg);
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.nav {
+  display:flex;
+  justify-content: space-between;
+
+  }
+
+  .nav__logo{
+  position: relative;
+    width: 105px;
+    height: 39px;
+    top: 30px;
+    left: 30px;
+  }
+
+
+  .nav__links {
+    position: relative;
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    top: 30px;
+    right: 80px;
+    font-family:"inter",Arial,sans-serif;
+      font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+  .header__image{
+
+    position: absolute;
+    top: 124px;
+    right: 5px;
+    max-width: 636px;
+    width: 646px;
+    height: 568px;
+
+  }
+  .header__title {
+    position: relative;
+    margin: 0;
+    max-width: 729px;
+    padding-top: 183px;
+    left: 80px;
+    font-family:"inter",Arial,sans-serif;
+      font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.6px;
+
+  }
+  .header__span-accent{
+    font-family: "Noto Serif","Times New Roman",serif;
+    font-style: italic;
+      font-size: 60px;
+    line-height: 72px;
+    color:#2f80ed;
+  }
+
+  .header__description {
+    max-width: 683px;
+  position: relative;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+    left: 80px;
+    font-family: "Noto Serif","Times New Roman",serif;
+       font-size: 20px;
+    line-height: 30px;
+
+  }
+
+  .header__footer {
+    margin-top: auto;
+    display: flex;
+    justify-content:space-between;
+    font-family:"inter",Arial,sans-serif;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #838383;
+  }
+  .header__footer_paragraph-hora{
+    position: absolute;
+    left:80px;
+    bottom: 40px;
+  }
+  .header__footer_paragraph-direc{
+    position: absolute;
+    right:80px;
+    bottom: 40px;
+  }

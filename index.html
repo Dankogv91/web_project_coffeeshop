@@ -8,7 +8,6 @@
     <meta name="keywords" content="html,css,javascript">
     <meta name="author" content="Danko">
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,11 +123,92 @@
           </fieldset>
       </form>
   </section>
-  <section id="menu" class="menu"></section>
-  <section id="contactos" class="about"></section>
+  <section id="menu" class="menu">
+   <h2 class="menu__title">Menú</h2>
+    <p class="menu__description">Elaboramos nuestro café con granos certificados de comercio justo, tostados localmente,<br>
+       y usamos tazas biodegradables. Todos los tés de nuestra colección a $2/taza.</p>
+    <div class="menu__cards">
+        <ul class=" menu__cards_content ">
+          <h3 class="card__title">De filtro</h3>
+          <li class="menu__item_card">
+            <p class="menu__item_name"> Regular (350 ml)</p><span class="menu__separation"></span><p class="menu__item_price">$1</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Grande (470 ml) </p><span class="menu__separation"></span> <p class="menu__item_price"> $1.25</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">XL (590 ml)</p><span class="menu__separation"></span> <p class="menu__item_price">$1.5</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Tamaño familiar (700 ml, descafeinado)</p><span class="menu__separation"></span><p class="menu__item_price"> $1.75</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Café helado (470 ml)</p><span class="menu__separation"></span><p class="menu__item_price">$1.25</p></li>
+          </p>
+        </ul>
+        <ul class=" menu__cards_content ">
+          <h3 class="card__title">Espresso</h3>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Macchiato</p> <span class="menu__separation"></span><p class="menu__item_price">$2.25</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Cortado</p> <span class="menu__separation"></span><p class="menu__item_price">$2.5</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name"> Mocha</p> <span class="menu__separation"></span><p class="menu__item_price">$3</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name"> Amanecer en Bay Area (descafeinado)</p> <span class="menu__separation"></span><p class="menu__item_price">$10</p></li>
+        </ul>
+        <ul class=" menu__cards_content">
+          <h3 class="card__title">Repostería</h3>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Croissant de almendra </p><span class="menu__separation"></span><p class="menu__item_price">$2</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Pan de banana</p> <span class="menu__separation"></span><p class="menu__item_price">$1.75</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Tarta de limón</p> <span class="menu__separation"></span><p class="menu__item_price">$3</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Pastel Blue velvet</p> <span class="menu__separation"></span><p class="menu__item_price">$3.75</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Cookie web</p> <span class="menu__separation"></span><p class="menu__item_price">$2</p></li>
+          <li class="menu__item_card">
+            <p class="menu__item_name">Baguette fresco</p> <span class="menu__separation"></span><p class="menu__item_price">$0.25</p></li>
+        </ul>
+      </div>
+
+  </section>
+  <section id="contactos" class="about">
+    <h2 class="about__title">Sobre la cafetería</h2>
+    <div class="about__circle"></div>
+    <div class="about__content about">
+
+    <p class="about__content_text">Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta con 6 mesas y WiFi gratuito.</p>
+
+    <p class="about__content_text"> Nuestra principal misión es mantener a nuestros comensales cómodos y con energía.</p>
+
+    <p class="about__content_text">Además, buscamos reducir nuestro impacto ambiental, así que no vendemos tazas de un solo uso. ¡Pero puedes comprar una de nuestras tazas reutilizables!</p>
+
+    </div>
+  </section>
 </main>
 <footer class="footer">
+  <div class="footer__columns">
 
+      <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="Es Imagen Biblioteca" />
+
+    <div class="footer__columns footer__columns_content-social" >
+    <h3 class="footer__column-heading">Redes Sociales</h3>
+    <ul class="footer__list">
+      <li class="footer__list-item">
+        <a class="footer__column-link" href="#">
+        <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Imagen Facebook"/>
+        Facebook
+      </a>
+      </LI>
+      <li class="footer__list-item">
+        <a class="footer__column-link" href="#">
+        <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Imagen Instagram"/>
+        Instagram
+      </a>
+      </li>
+    </ul>
+  </div>
+
+  <p class="footer__copyright"> © 2024 Danko Gargurevich</p>
 </footer>
 </div>
 </body>

@@ -1,0 +1,89 @@
+
+
+
+.menu{
+
+  background-image: url(../images/background_menu.svg);
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.menu__title{
+
+  text-align: center;
+  padding-top: 80px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__description{
+  text-align: center;
+  font-family: "Noto Serif","Times New Roman",serif;
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+
+.menu__cards{
+  display: flex;
+  margin:auto;
+
+  flex-wrap:wrap ;
+  justify-content:space-evenly ;
+  gap: 10px;
+  list-style-type: none;
+  font-family: "Noto Serif","Times New Roman",serif;
+
+padding-bottom: 70px;
+
+}
+
+
+.menu__cards_content{
+
+max-width: 800px;
+padding-left: 0;
+margin-bottom: 30px;
+
+}
+
+
+.menu__item_card{
+  display: flex;
+  line-height: 5px;
+  width: 600px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+
+.menu__item_name{
+
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.menu__separation {
+
+  width: 100%;
+  height: 10px;
+  border-bottom: solid  ;
+  border-width: 1px;
+
+
+}
+
+
