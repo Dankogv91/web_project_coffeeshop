@@ -1,0 +1,64 @@
+
+.menu__cards{
+  display: flex;
+  margin:auto;
+
+  flex-wrap:wrap ;
+  justify-content:space-evenly ;
+  gap: 10px;
+
+  font-family: "Noto Serif","Times New Roman",serif;
+
+padding-bottom: 70px;
+
+}
+.menu__cards_content{
+display: block;
+  padding-top: 30px;
+  list-style-type: none;
+max-width: 800px;
+padding-left: 0;
+margin-bottom: 30px;
+
+}
+
+.menu__card-title{
+
+  padding-bottom: 25px;
+  font-family: "Noto Serif","Times New Roman",serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight:bold;
+}
+
+
+
+.menu__item-card{
+  display: flex;
+  line-height: 5px;
+  width: 600px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*justify-content: space-between; (investigando otra manera de separar los precios)*/
+  font-size: 16px;
+}
+
+
+.menu__item-name{
+
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.menu__separation {
+flex-grow: 1;
+ /*white-space: nowrap;
+ width: 100%;(investigando llegue a ese resultado para separar los precios)*/
+  height: 10px;
+  border-bottom: solid  ;
+  border-width: 1px;
+
+
+}

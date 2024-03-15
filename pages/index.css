@@ -21,9 +21,15 @@
 /*reservation*/
 @import url("../blocks/reservation.css");
 
+/*reservation-form*/
+@import url("../blocks/form.css");
+
 
 /*menu*/
 @import url("../blocks/menu.css");
+
+/*menu-cards*/
+@import url("../blocks/card.css");
 
 
 /*abput*/
